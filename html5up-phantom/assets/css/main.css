@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background: #1f1f1f;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -116,7 +116,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #585858;
+		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -151,7 +151,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			color: #f74e2e !important;
 		}
 
 	strong, b {
@@ -164,14 +164,15 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		background: #1f1f1f 
 	}
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 2.95em;
 		font-weight: 700;
 		line-height: 1.3;
 		margin: 0 0 1em 0;
-		letter-spacing: -0.035em;
+		letter-spacing: -0.015em;
 	}
 
 		h1 a {
@@ -213,6 +214,7 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1em;
+		color: #585858;
 	}
 
 	h4 {
@@ -1848,7 +1850,7 @@ input, select, textarea {
 			display: inline-block;
 			text-align: center;
 			line-height: 2.65em;
-			color: inherit;
+			color: #585858;
 		}
 
 			.icon.style2:before {
@@ -1856,8 +1858,8 @@ input, select, textarea {
 			}
 
 			.icon.style2:hover {
-				color: #f2849e;
-				border-color: #f2849e;
+				color: #f74e2e;
+				border-color: #f74e2e;
 			}
 
 			.icon.style2:active {
@@ -2494,8 +2496,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			color: #f2849e !important;
-			box-shadow: inset 0 0 0 2px #f2849e;
+			color: #f74e2e !important;
+			box-shadow: inset 0 0 0 2px #f74e2e;
 		}
 
 		input[type="submit"]:active,
@@ -2537,7 +2539,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #f2849e;
+				background-color: #f74e2e;
 			}
 
 			input[type="submit"].primary:active,
