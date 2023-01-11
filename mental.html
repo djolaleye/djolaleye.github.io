@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Mental Health Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/crown-solid.svg" alt="" /></span>
+									<span class="title">Ayodeji Olaleye</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1><center>Mental Health Dashboard</center></h1>
+							<span class="image main">
+                                <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+
+
+                                <tableau-viz id="tableauViz"       
+                                  src='https://public.tableau.com/views/MentalHealthintheUSA/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link'      
+                                  device="" toolbar="bottom" hide-tabs>
+                                </tableau-viz>
+                            </span>
+							<p>This is an interactive dashboard using SQL, Python, and Tableau to explore mental health trends in America and serve as a prompt for future studies.</p>
+							<p>In the top left we start with a look into how prevalent depression is in the US compared to other similarly sized countries. The United States, along with Russia, stood out from the pack, topping 4% over the time period. Whether this trend is indicative of worse environmental factors, or can be attributed to higher incidences of reporting could be the subject for further analysis.</p>
+							<p>The next bar graph illustrates the main mental health issues Americans face. Anxiety and depression are by far the most common afflictions. Their frequency suggests that dedicating a proportionate amount of resources towards these areas would be an impactful strategy.
+                                The line graph in the bottom left brings a deeper understanding of context regarding anxiety. We can see that, over time, the percentage of Females with anxiety has consistently risen, while there is no such pattern in Males who have remained relatively constant. An extra focus when targeting this demographic could see success.</p>
+							<p>Lastly, we have a scatter plot relating drug/alcohol abuse rates and depression rate. The feature correlations are not particularly linear, but this might be a consequence of having depression rate as a measure per 100,000 without controlling for population size. However, the United States is one of the coutries that shows up in the upper right quadrant for both metrics. Finding out the weight that addictive behavioral traits have in predicting depression, or other mental health disorders, would be a worthwile next step.</p>
+                            <p>Data Sourced from Kaggle: Global Trends in Mental Health Disorder</p>
+						</div>
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<section>
+							<h3>Contact</h3>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field half">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="field half">
+										<input type="email" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="field">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send" class="primary" /></li>
+								</ul>
+							</form>
+						</section>
+						<section>
+							<h3>Profiles</h3>
+							<ul class="icons">
+								<li><a href="https://www.linkedin.com/in/ayodeji-olaleye-06a13a230/" target="_blank" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/djolaleye" target="_blank" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+						<ul class="copyright">
+							<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
