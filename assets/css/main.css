@@ -2356,6 +2356,12 @@ input, select, textarea {
 			width: 100%;
 		}
 
+			.image.main.half {
+
+				height: 30%;
+				width: 50%;
+			}
+
 			.image.main img {
 				width: 100%;
 			}
