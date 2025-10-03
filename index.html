@@ -8,18 +8,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets/css/custom.css">
+		<script defer src="./assets/js/script.js"></script>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
 			<div id="wrapper">
 				<!-- Header -->
-					<header id="header">
+					<header class="site-header">
 						<nav class="nav container" aria-label="Primary">
-							<a class="brand" href="/">Ayodeji Olaleye</a>
-							<button id="theme-toggle" class="icon-btn" aria-label="Toggle theme">
+							<a class="brand">Ayodeji Olaleye</a>
+							<button id="theme-toggle" class="icon-btn" aria-label="Dark/Light Mode Toggle" aria-pressed="false">
 								<span aria-hidden="true">🌓</span>
 							</button>
-							<div class="spacer"></div>
 							<a class="nav-link" href="images\Ayodeji-Olaleye-FlowCV-Resume-20251003.pdf" target="_blank" rel="noopener">Resume</a>
 							<a class="nav-link" href="mailto:aolaley2@illinois.edu">Email</a>
 							<a class="nav-link" href="https://github.com/djolaleye" target="_blank" rel="noopener">GitHub</a>
@@ -30,8 +31,8 @@
 				<!-- Main -->
 				 <main id="main" class="container">
 					<section class="hero" aria-labelledby="intro-title">
-						<img class="avatar" src="images/portrait.jpg" alt="My Professional Portrait" width="112" height="112" />
-						<h1 id="intro-title">Hi, I’m Deji <span class="wave" aria-hidden="true">👋</span></h1>
+						<img class="avatar" src="images/portrait.jpg" alt="My Professional Portrait" width="160" height="160" />
+						<h1 id="intro-title">Hi, I’m Deji! <span class="wave" aria-hidden="true">👋🏿</span></h1>
 						<p class="lead">
 							I'm a graduate student at the University of Illinois pursuing a Master's in Computer Science with a specialization in Software Engineering. My interests lie in building and I love .
 						</p>
@@ -43,41 +44,11 @@
 							 <a class="btn ghost" href="software.html">Software Engineering Projects</a>
 						</div>
 					</section>
-
-					<section class="cards" aria-labelledby="projects-heading">
-						<h2 id="projects-heading">Selected projects</h2>
-
-						<!-- Repeat for each project -->
-						<article class="card">
-							<header><h3>American Mental Health Trends</h3></header>
-							<p>Explored mental health trends worldwide using SQL, Python, Tableau.</p>
-							<footer class="card-meta">
-							<a href="https://github.com/yourhandle/mental-health" target="_blank" rel="noopener">Source</a>
-							</footer>
-						</article>
-
-						<article class="card">
-							<header><h3>NBA Wins Predictor</h3></header>
-							<p>Built predictive models to estimate match outcomes using machine learning in Python.</p>
-							<footer class="card-meta">
-							<a href="https://github.com/yourhandle/nba-predictor" target="_blank" rel="noopener">Code</a>
-							</footer>
-						</article>
-
-						<!-- More cards -->
-					</section>
 				</main>
 					
 				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<section>
-								<h3>Profiles</h3>
-								<ul class="icons">
-									<li><a href="https://www.linkedin.com/in/ayodeji-olaleye-06a13a230/" target="_blank" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/djolaleye" target="_blank" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
+					<footer id="site-footer">
+						<div class="container">
 							<ul class="copyright">
 								<li>&copy;<span id="year"></span> Ayodeji Olaleye. All rights reserved</li><li>Images: iStock</li>
 							</ul>
