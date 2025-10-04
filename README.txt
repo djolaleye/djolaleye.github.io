@@ -1,8 +1,10 @@
-This is a website showcasing my data analysis project portfolio.
+I’m excited by projects where analytics and creative software design meet, finding and visualizing new insights.
+
+Right now, I'm studying Artificial Intelligence and Performance Engineering as a Masters student at UIUC.
+
+Previously I've worked in Fraud Strategy at Discover (Capital One), and as a medical laboratory scientist in Microbiology.
+
 
 
 Credits:
-	
-Template: HTML5 UP (html5up.net)
-Icons: Font Awesome (fontawesome.io)
-Other: jQuery (jquery.com), Responsive Tools (github.com/ajlkn/responsive-tools)
+jQuery (jquery.com), Responsive Tools (github.com/ajlkn/responsive-tools)
