@@ -1,29 +1,33 @@
-// year stamp
-document.addEventListener('DOMContentLoaded', () => {
-  const y = document.getElementById('year');
-  if (y) y.textContent = new Date().getFullYear();
-});
-
-// theme toggle (respects prefers-color-scheme, persists choice)
-(function themeToggle(){
+// script.js
+(() => {
   const root = document.documentElement;
-  const btn = document.getElementById('theme-toggle');
-  const STORAGE_KEY = 'pref-theme';
+  const btn  = document.getElementById('theme-toggle');
+  const KEY  = 'pref-theme';
 
-  function apply(mode){
-    root.classList.remove('light','dark');
-    if (mode === 'light' || mode === 'dark') root.classList.add(mode);
-    if (mode) localStorage.setItem(STORAGE_KEY, mode);
+  // read saved preference
+  const saved = localStorage.getItem(KEY);
+  if (saved) {
+    // user clicked before → force that theme
+    root.setAttribute('data-theme', saved);
+    btn?.setAttribute('aria-pressed', String(saved === 'dark'));
+  } else {
+    // no saved choice → leave no data-theme
+    // the CSS + media query decides initial color
   }
 
-  // load saved
-  const saved = localStorage.getItem(STORAGE_KEY);
-  if (saved) apply(saved);
-
+  // toggle on click
   btn?.addEventListener('click', () => {
-    const next = root.classList.contains('dark') ? 'light'
-              : root.classList.contains('light') ? 'system'
-              : 'dark';
-    apply(next === 'system' ? '' : next);
+    const current = root.getAttribute('data-theme');
+    let next;
+    if (!current) {
+      // user has no stored pref yet, so detect current system mode
+      const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      next = systemDark ? 'light' : 'dark'; // flip whatever system is
+    } else {
+      next = current === 'dark' ? 'light' : 'dark';
+    }
+    root.setAttribute('data-theme', next);
+    localStorage.setItem(KEY, next);
+    btn?.setAttribute('aria-pressed', String(next === 'dark'));
   });
 })();
