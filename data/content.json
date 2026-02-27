@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "siteName": "Ayodeji Olaleye Portfolio",
+    "ownerName": "Ayodeji Olaleye",
+    "resumeUrl": "images/OlaleyeResume.pdf",
+    "social": [
+      {
+        "label": "Email",
+        "url": "mailto:djolaleye@gmail.com",
+        "icon": "mail"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/djolaleye",
+        "icon": "github"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/deji-olaleye",
+        "icon": "linkedin"
+      }
+    ]
+  },
+  "locations": {
+    "home": {
+      "title": "Home",
+      "subtitle": "About Me",
+      "blurb": "Master's student at the University of Illinois Urbana-Champaign, transitioning from biological sciences into software engineering and computer science.",
+      "highlights": [
+        {
+          "label": "Currently",
+          "value": "Full-time Student"
+        },
+        {
+          "label": "Focus",
+          "value": "Software Engineering"
+        }
+      ],
+      "cta": [
+        {
+          "label": "Research Interests",
+          "url": "data-projects.html"
+        },
+        {
+          "label": "Interactive Software",
+          "url": "software.html"
+        }
+      ]
+    },
+    "research": {
+      "title": "Research",
+      "intro": "Selected projects and in-progress work focused on data analysis and AI-assisted software reliability.",
+      "items": [
+        {
+          "name": "AI-Powered Software Reliability Testing System",
+          "summary": "In-progress concept for improving software reliability using AI-supported testing workflows.",
+          "tags": [
+            "In Progress",
+            "AI",
+            "Testing"
+          ],
+          "links": [
+            {
+              "label": "TODO: Add project link",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "name": "Mental Health Trends Dashboard",
+          "summary": "Exploration of mental health trends in the United States compared with global trends.",
+          "tags": [
+            "Dashboard",
+            "Data Analysis"
+          ],
+          "links": [
+            {
+              "label": "Dashboard",
+              "url": "dataprojects/mental.html"
+            }
+          ]
+        },
+        {
+          "name": "NBA Wins Predictor",
+          "summary": "Investigation into how strongly a star player's performance can predict total NBA season wins.",
+          "tags": [
+            "Sports Analytics",
+            "Predictive Modeling"
+          ],
+          "links": [
+            {
+              "label": "GitHub",
+              "url": "https://github.com/djolaleye/NBA_wins_predictor"
+            }
+          ]
+        }
+      ]
+    },
+    "software": {
+      "title": "Software",
+      "intro": "Current software work is in early stages and being expanded.",
+      "items": [
+        {
+          "name": "WIP",
+          "summary": "TODO: Add details for active software projects and demos.",
+          "tags": [
+            "Work In Progress"
+          ],
+          "links": [
+            {
+              "label": "TODO: Add link",
+              "url": ""
+            }
+          ]
+        }
+      ]
+    },
+    "background": {
+      "title": "Background",
+      "timeline": [
+        {
+          "when": "TODO",
+          "title": "Background details pending",
+          "details": [
+            "TODO: Populate timeline from background page content."
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "methods": [
+        {
+          "label": "Email",
+          "value": "djolaleye@gmail.com",
+          "url": "mailto:djolaleye@gmail.com"
+        },
+        {
+          "label": "GitHub",
+          "value": "github.com/djolaleye",
+          "url": "https://github.com/djolaleye"
+        },
+        {
+          "label": "LinkedIn",
+          "value": "linkedin.com/in/deji-olaleye",
+          "url": "https://www.linkedin.com/in/deji-olaleye"
+        },
+        {
+          "label": "Resume",
+          "value": "View PDF",
+          "url": "images/OlaleyeResume.pdf"
+        }
+      ]
+    }
+  }
+}
